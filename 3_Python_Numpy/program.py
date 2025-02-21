@@ -57,4 +57,21 @@ for i in arr7:
 arr8 = np.random.randint(12, 18, size=(3,4))
 print("Random Dataset :\n",arr8)
 
+# # slicing/subsetting
+new_list = [51, 36, 67, 33, 19, 79, 94]
+print(new_list)
 
+# printing single value
+print(new_list[1])
+
+# continuous elements subsetting 
+print(new_list[0:4])
+
+# without any value
+print(new_list[:])
+
+# passing start value only
+print(new_list[3:])
+
+# passing ending value only
+print(new_list[:3])
